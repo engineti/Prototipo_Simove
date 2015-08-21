@@ -212,6 +212,6 @@
   </Target>
   -->
   <PropertyGroup>
-    <PreBuildEvent>copy "$(SolutionDir)Library\*.dll" "$(TargetDir)"</PreBuildEvent>
+    <PreBuildEvent>copy "$(SolutionDir)LibDOTR900\*.dll" "$(TargetDir)"</PreBuildEvent>
   </PropertyGroup>
 </Project>

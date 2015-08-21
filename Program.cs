@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Windows.Forms;
 
-namespace Prototipo
+namespace DemoObras
 {
     static class Program
     {

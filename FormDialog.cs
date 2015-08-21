@@ -6,7 +6,7 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 
-namespace Prototipo
+namespace DemoObras
 {
     public partial class FormDialog : Form
     {

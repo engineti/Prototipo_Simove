@@ -7,7 +7,7 @@ using System.Text;
 using System.Windows.Forms;
 using UHFAPI_NET;
 
-namespace Prototipo
+namespace DemoObras
 {
     public partial class FormInventory : Form
     {

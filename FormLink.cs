@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 using System.IO;
 using System.Reflection;
 
-namespace Prototipo
+namespace DemoObras
 {
     public partial class FormLink : Form
     {

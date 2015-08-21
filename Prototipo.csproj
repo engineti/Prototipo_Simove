@@ -144,6 +144,12 @@
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <None Include="LibDOTR900\devicectrl.exp" />
+    <None Include="LibDOTR900\devicectrl.lib" />
+    <None Include="LibDOTR900\R900LIB.lib" />
+    <None Include="LibDOTR900\UHFAPI.lib" />
+    <None Include="LibDOTR900\uhfapi_sup_4_net.exp" />
+    <None Include="LibDOTR900\uhfapi_sup_4_net.lib" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -187,6 +193,15 @@
     <Content Include="img\Minion.png" />
     <Content Include="img\SemAlarme.png" />
     <Content Include="img\Stop.png" />
+    <Content Include="LibDOTR900\devicectrl.dll" />
+    <Content Include="LibDOTR900\R900LIB.dll" />
+    <Content Include="LibDOTR900\rfidtx.dll" />
+    <Content Include="LibDOTR900\sms.dll" />
+    <Content Include="LibDOTR900\UHFAPI.dll" />
+    <Content Include="LibDOTR900\UHFAPI_NET.dll" />
+    <Content Include="LibDOTR900\uhfapi_sup_4_net.dll" />
+    <Content Include="LibDOTR900\uhfapi_sup_4_net.pdb" />
+    <Content Include="LibDOTR900\uhfrfid.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

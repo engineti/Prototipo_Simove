@@ -9,7 +9,7 @@
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Prototipo</RootNamespace>
-    <AssemblyName>Prototipo</AssemblyName>
+    <AssemblyName>SimoveObras</AssemblyName>
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
@@ -17,7 +17,7 @@
     <UpgradeBackupLocation>
     </UpgradeBackupLocation>
     <IsWebBootstrapper>false</IsWebBootstrapper>
-    <PublishUrl>C:\Users\rodrigo\Desktop\Nova pasta\</PublishUrl>
+    <PublishUrl>C:\SimoveObras\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
     <UpdateEnabled>false</UpdateEnabled>
@@ -57,10 +57,10 @@
     <PlatformTarget>x86</PlatformTarget>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>3270A9BC717DB65103124C8A7EFCF85B185D609B</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>82F65CF0B3505859BB3F9FB01C7F1AD363AF2649</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestKeyFile>R900APP%28XP%29_net_TemporaryKey.pfx</ManifestKeyFile>
+    <ManifestKeyFile>Prototipo_1_TemporaryKey.pfx</ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
     <GenerateManifests>true</GenerateManifests>
@@ -158,6 +158,8 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="Prototipo_1_TemporaryKey.pfx" />
+    <None Include="RFIDcomm.cfg" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
@@ -195,6 +197,6 @@
   </Target>
   -->
   <PropertyGroup>
-    <PreBuildEvent>copy "$(SolutionDir)Library\WIN32\$(ConfigurationName)\*.dll" "$(TargetDir)"</PreBuildEvent>
+    <PreBuildEvent>copy "$(SolutionDir)Library\*.dll" "$(TargetDir)"</PreBuildEvent>
   </PropertyGroup>
 </Project>
